@@ -14,8 +14,6 @@ function App() {
     current: Current,
   }
   const [state, setState] = useState('hyderabad')
-
-
   const [report, setReport] = useState<weatherdata>({
     loading: false,
     data: [] as Weather[],
@@ -74,11 +72,8 @@ function App() {
 
   }
 
-
   const { loading, data, location, current } = report
 
-
-  console.log(report)
   return (
     <div className="App">
       <Typography className='app-logo'>Weather App</Typography>
@@ -88,7 +83,6 @@ function App() {
       </Space>
       <div className='location'>
         <Space size={-0} direction='vertical' className='txt'>
-
           <Typography className='location-text' > {location.name} | {location.country}</Typography>
           <Typography className='date-text'>As of {current.last_updated}</Typography>
         </Space>
@@ -166,8 +160,6 @@ function App() {
           </div>
         </Space>
       </div>
-
-
     </div>
   );
 }
