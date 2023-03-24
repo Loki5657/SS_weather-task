@@ -4,7 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run: intially click on submit to get data of "Hyderabad"
+In the project directory, you can run: 
+###intially click on submit to get data of "Hyderabad"
 
 ### `npm start`
 
